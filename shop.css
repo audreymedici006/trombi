@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: rgb(228, 226, 226);
+    /* background-image: url("./fondecrannew.jpg"); */
+    margin: 0%;
+  }
+
+  /* BODY */
+  main, article, section  {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  fieldset h4{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  /* form { */
+    /* font-size: 12px;  */
+  /* }   */
+  /* fieldset { */
+    /* margin: 5px; */
+    /*border: none;*/
+    /* background-color: rgb(205, 207, 212); */
+  /* } */
+  table {
+    background-color: rgb(205, 207, 212);
+  }
+  th {
+    background: #4CAF50;
+  }
+  h5 {
+    color: red;
+
+  }
+  
+  .identite {
+      line-height: 2%;
+      background: #4CAF50;
+    }
+  
+
+  #pages{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+  }  
+
+  #pages a{
+    /* text-decoration: none; */
+    padding: 3px;
+    z-index: 1;
+    color: red;
+  }
+  article{
+      width: 80%;
+      background-color: rgb(228, 226, 226);
+      margin-left: 5%;
+      margin-top: 5%;
+      /* margin-right:15%; */
+      /* padding: 10%; */
+      text-align: center;
+      justify-content: center;
+      width: 88%;
+    
+      display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  article figure{
+      width: 24%;
+      padding: 1%;
+      box-sizing: border-box;
+      border: 1px solid black;
+      background-color: white;
+      margin-bottom: 1%;
+      border-radius: 1%;
+  }
+
+  .card-block{
+    background-color: red;
+
+  }
+  article img{
+    width: 100%;
+    vertical-align: middle;
+  }
+  /*figure{ // plus nécessaire
+    padding: 10px;
+  }
+  */
+  figcaption {
+    /* background-color:#4CAF50; */
+    /* border: 1px solid black; */
+    /* border-radius: 25%; */
+    margin: 1%;
+    padding: 2%;
+    /* font-size: 1%; */
+    font-weight: bold;
+    text-align: center;
+  }
+  aside{
+    margin: 3%;
+  }
+  /* img { */
+    /* border-radius: 50%; */
+  /* }  */
+
+  /* span.prix{ */
+      /* color: red; */
+      /* margin-left: 70%; */
+      /* text-align: right; */
+      /* position: relative; */
+      /* box-sizing: inherit; */
+  /* } */
+
+  h6{
+
+    color: red;
+  }
+
+
+.ss-wrapper{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+  float: left;
+}
+/* box-sizing: inherit; */
+.ss-content{
+  width: calc(100% + 18px);
+  padding: 0;
+  overflow: auto;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+}
+
+  
+  #name{
+    /* font-size: 14px; */       
+     color: black;
+   }
+
+   /* code css fleur */
+   /* début header */
+header{
+  background: red;
+  font-family: 'moykoregular', Arial, serif;
+  font-size: 1.3em;
+  padding-top: 40px;
+  height: 100px;
+  text-align: center;
+}
+
+header a, footer a{
+  color: white;
+  z-index: 1;
+  text-decoration: none;
+}
+
+span{
+  font-family: 'moykoregular', Arial, serif; 
+  font-size: +3;
+}
+
+.logo{
+  position: absolute;
+  z-index: 1;
+  left: 295px;
+  top: 15px;
+}
+
+.icon{
+  color: white;
+}
+
+.flag{
+  position:absolute;
+  top: 40px;
+  right: 25px;
+  font-size: 1.3em;
+}
+/* fin header */
+
+/* début formulaire contact */
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+label{
+  display: inline-block;
+  min-width: 200px;
+}
+
+#motif{
+  width: 1280px;
+}
+
+input[type="submit"]{
+  background: black;
+  color: white;
+  padding: 10px;
+}
+/* fin formulaire contact */
+
+/* début footer */
+footer{
+  background: black;
+  font-family: 'moykoregular', Arial, serif;
+  font-size: 1.1em;
+  color: white;
+  padding-top: 15px;
+}
+
+nav, .box{ /*header & footer*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+ul{
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 5px;
+}
+
+.copyright{
+  text-align: center;
+  padding: 5px 0;
+}
+/* fin footer */
+
+
+@font-face { /* police caractère (sur le reste du site)*/
+  font-family: 'montserratlight';
+  src: url('montserrat-light-webfont.woff2') format('woff2'),
+       url('montserrat-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* police caractère (header+footer)*/
+  font-family: 'moykoregular';
+  src: url('moyko-webfont.woff2') format('woff2'),
+       url('moyko-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  width: 20%;
+}
