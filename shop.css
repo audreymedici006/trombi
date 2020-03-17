@@ -182,7 +182,7 @@ header{
 }
 
 header a, footer a{
-  color: black
+  color: black;
   z-index: 1;
   text-decoration: none;
 }
@@ -235,13 +235,18 @@ input[type="submit"]{
 
 /* début footer */
 footer{
-  background: black;
+  background: white;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
   font-family: 'moykoregular', Arial, serif;
   font-size: 1.1em;
   color: white;
-  padding-top: 15px;
+  /* padding-top: 15px; */
   /* height: 100%; */
   width: 100%;
+
 }
 
 nav, .box{ /*header & footer*/
