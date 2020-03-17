@@ -11,6 +11,26 @@ body {
     display: flex;
     flex-wrap: nowrap;
   }
+
+  header{
+    background: burlywood;
+    font-family: 'moykoregular', Arial, serif;
+    font-size: 1.3em;
+    padding-top: 40px;
+    height: 100px;
+    text-align: left;
+  }
+
+  h1 {
+      text-align: center;
+  }
+  /* .logo{
+    position: absolute;
+    /* z-index: 1; */
+    /* left: 30%;
+    top: -4px;
+  } */ 
+
   
   fieldset h4{
     text-decoration: underline;
@@ -160,7 +180,7 @@ header{
 }
 
 header a, footer a{
-  color: white;
+  color: black
   z-index: 1;
   text-decoration: none;
 }
@@ -174,7 +194,7 @@ span{
   position: absolute;
   z-index: 1;
   left: 295px;
-  top: 15px;
+  top: -5px;
 }
 
 .icon{
